@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maya Hamdy — Posters</title>
+<meta name="description" content="A flip-through book of posters by Maya Hamdy.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <span class="brand">Maya Hamdy</span>
+  <span class="hint">Click a page, swipe, or use ← →</span>
+</header>
+
+<main>
+  <div class="stage" id="stage">
+    <div class="book" id="book" aria-live="polite"></div>
+  </div>
+</main>
+
+<footer>
+  <button id="prev" aria-label="Previous page">←</button>
+  <span id="counter">Cover</span>
+  <button id="next" aria-label="Next page">→</button>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <img alt="">
+  <button aria-label="Close">×</button>
+</div>
+
+<script src="posters.js"></script>
+<script src="book.js"></script>
+</body>
+</html>
